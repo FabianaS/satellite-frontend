@@ -1,8 +1,9 @@
 from flask import Flask
 
 __version__ = '1.0'
-__name__ = 'satellite_ce'
 
-app = Flask(__name__)
+app = Flask('satellite')
 app.config.from_object('config')
+app.debug = True
 
+from satellite.controllers import *
