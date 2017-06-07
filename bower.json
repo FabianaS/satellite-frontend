@@ -1,0 +1,30 @@
+{
+  "name": "satellite",
+  "homepage": "https://github.com/OneTesseractInMultiverse/satellite-frontend",
+  "authors": [
+    "Pedro Guzmán <pedro@subvertic.com>",
+    "Fabiana Solano <fsolanor812@ulacit.ed.cr>",
+    "Josue Gabuardi <jgabuardib449@ulacit.ed.cr>"
+  ],
+  "description": "A multi-lingual collaboration tool for distributed translation/publication team.",
+  "main": "",
+  "keywords": [
+    "Satellite",
+    "Collaboration",
+    "Publishing"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "lib"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "react": "^15.1.0"
+  }
+}
