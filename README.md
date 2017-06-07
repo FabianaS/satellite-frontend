@@ -24,16 +24,49 @@ by search engines such as *Google* or *Bing*.
 * Npm
 * Bower
 
-## Running the Application
+## Steps to run application locally in *dev* environment
 
-Before you can run this application locally, you need to install
-all dependencies by running the following commands (Make sure you
-have installed *npm* and *bower*):
+First you must clone the repository where you want to run the application with *GIT* :
 
 ```Bash
-$ pip install -r requirements.txt
-$ npm install
-$ bower install
+$ git clone https://github.com/OneTesseractInMultiverse/satellite-frontend.git
+$ cd satellite-frontend
 ```
+
+The we need to install the Python dependencies:
+
+```Bash
+$ pip install -r requirements.txt  
+```
+
+Now install *npm* dependencies
+
+```Bash
+$ npm install  
+```
+
+Now install *bower* dependencies
+
+```Bash
+$ bower install 
+```
+
+Now run grunt to compile the scripts
+
+```Bash
+$ grunt 
+```
+
+Finally run the application:
+
+```Bash
+$ python run.py 
+ * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 205-566-392
+
+```
+
 
 
