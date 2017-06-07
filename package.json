@@ -1,0 +1,33 @@
+{
+  "name": "satellite",
+  "version": "1.0.0",
+  "description": "A multi-lingual collaboration tool for distributed translation/publication team.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneTesseractInMultiverse/satellite-frontend.git"
+  },
+  "keywords": [
+    "Satellite",
+    "Collaboration",
+    "Multi-Lingual",
+    "Publishing"
+  ],
+  "author": "Pedro Guzmán, Fabiana Solano, Josue Gabuardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OneTesseractInMultiverse/satellite-frontend/issues"
+  },
+  "homepage": "https://github.com/OneTesseractInMultiverse/satellite-frontend#readme",
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}
